@@ -20,7 +20,7 @@ categories = [
 
 [dependencies]
 anyhow = "1"
-chrono = "0.4"
+chrono = { git = "https://github.com/chronotope/chrono.git", "rev" = "d147e9a" }
 gdnative-core = "0.11"
 log = "0.4"
 log4rs = "1.2.0"
